@@ -1,0 +1,20 @@
+// vars
+// colors
+$green: #629055;
+$hgreen: #498039;
+$grey:  #91a09a;
+//fonts
+$robL: 'RobotoLight', sans-serif;
+$robR: 'RobotoRegular', sans-serif;
+$robM: 'RobotoMedium', sans-serif;
+$robB: 'RobotoBold', sans-serif;
+
+
+// imports
+@import "_misc/mixins";
+@import "_misc/adjustment";
+@import "_misc/fonts";
+@import "_fonts/font-awesome";
+// sections
+@import "sections/welcome";
+@import "sections/links";

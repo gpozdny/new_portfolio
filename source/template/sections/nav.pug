@@ -1,0 +1,5 @@
+- var links = [{name: "Мои работы", href: "works.html"},{name: "Обо мне", href: "about.html"},{name: "Блог", href: "blog.html"}]
+    ul.bot-nav__list
+        each link in links
+            li.bot-nav__item
+                a(href="" + link.href).bot-nav__link=link.name

@@ -1,0 +1,16 @@
+.socials__list  {
+  display: flex;
+}
+
+.socials__item  {
+  padding:  30px 20px;
+}
+
+.fa_welcome {
+  color: #96a59c;
+  font-size: 30px;
+  transition: color 0.3s;
+    &:hover {
+      color: $hgreen;
+    }
+}

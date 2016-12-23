@@ -1,0 +1,6 @@
+.socials
+    ul.socials__list
+        each social in ['vk', 'github', 'linkedin']
+            li.socials__item
+                a(class=`socials__link socials__link_${social}` href='#')
+                    i(class=`fa fa-${social} fa_welcome` aria-hidden="true")

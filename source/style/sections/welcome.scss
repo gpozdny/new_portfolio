@@ -1,0 +1,114 @@
+.maincontent_auth {
+  background-image: url(/assets/img/water.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.main__btn  {
+  position: absolute;
+  right:  20px;
+  top: 20px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 3.125rem;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+    &:hover {
+      background: $hgreen;
+      border: 2px solid $hgreen;
+    }
+}
+
+.main {
+  display: flex;
+  width: 23.75rem;
+  border-radius: 5px;
+  flex-direction: column;
+  background-color: rgba(18, 38, 32, 0.5);
+}
+
+.main__top  {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+
+.main__top-ava {
+  background-image: url(/assets/img/ava.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  width: 143px;
+  height: 143px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  margin: 32px 0 10px 0;
+}
+
+.top_name {
+  font-size: 28px;
+  font-family: $robM;
+  color: #fff;
+}
+
+.top__occup {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+}
+
+
+.footer_welcome {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+}
+
+.bot-nav__list  {
+  display: inline-flex;
+  flex: 1;
+}
+
+.bot-nav__item  {
+  display: flex;
+  &:first-child {
+    .bot-nav__link  {
+      border-bottom-left-radius: 5px;
+    }
+  }
+  &:last-child {
+    flex: 1;
+    .bot-nav__link  {
+      border-bottom-right-radius: 5px;
+      border: 0;
+      flex: 1;
+    }
+  }
+}
+
+.main__bot  {
+  display: flex;
+}
+
+
+.bot-nav__link {
+  display: flex;
+  color: #fff;
+  font-family: $robM;
+  background-color: $green;
+  padding: 11px 1.93125rem;
+  border-right: 2px solid #a0b99e;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: $hgreen;
+  }
+}
