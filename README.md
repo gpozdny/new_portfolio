@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-#Учебная сборка Loftschool (выпускной проект №1) 
+Учебная сборка Loftschool (выпускной проект №1) 
 
 Stack:
  - Gulp 4.0
@@ -11,6 +10,6 @@ Getting started:
 3. npm install gulpjs/gulp-cli -g  // Install the latest Gulp CLI tools globally
 4. npm install
 6. run "gulp" command to start
-=======
-# loftschool
->>>>>>> d06bb9ec06584d5bd750cf62dc3a561da61692a1
+
+
+
